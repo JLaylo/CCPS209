@@ -8,19 +8,7 @@ import static java.lang.IO.print;
 
 public class Main {
     static void main() {
-//        print(P2J1.fallingPower(10, 5));
-
-        int[] arr = {11, 22, 33, 44, 55, 66, 77, 88, 99};
-//        int[] result = P2J1.everyOther(arr);
-//        System.out.println(Arrays.toString(result));
-
-
-//        int[][] matrix = P2J1.createZigZag(4, 5, 4);
-//        for(int i = 0; i < 4; i++) {
-//            System.out.println(Arrays.toString(matrix[i]));
-//        }
-
-        System.out.print(P2J1.countInversions(arr));
+        System.out.println(P2J3.pancakeScramble("awesome"));
     }
 }
 
