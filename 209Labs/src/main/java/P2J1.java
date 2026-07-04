@@ -1,4 +1,5 @@
-public class P2J1 {
+public class P2J1
+{
     public static long fallingPower(int n, int k) {
         long total = n;
         int base = n;
@@ -13,7 +14,8 @@ public class P2J1 {
         return total;
     }
 
-    public static int[] everyOther(int[] arr) {
+    public static int[] everyOther(int[] arr)
+    {
         if (arr.length <= 1) { return arr; }
 
         int arr_len = 0;
@@ -32,7 +34,8 @@ public class P2J1 {
         return new_arr;
     }
 
-    public static int[][] createZigZag(int rows, int cols, int start) {
+    public static int[][] createZigZag(int rows, int cols, int start)
+    {
         int[][] matrix = new int[rows][cols];
         int counter = start;
 
@@ -54,7 +57,8 @@ public class P2J1 {
         return matrix;
     }
 
-    public static int countInversions(int[] arr) {
+    public static int countInversions(int[] arr)
+    {
         if(arr.length <= 1) { return 0; }
         int count = 0;
 

@@ -2,7 +2,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 public class P2J2 {
-    public static String removeDuplicates(String text) {
+    public static String removeDuplicates(String text)
+    {
         if (text.isEmpty()) {
             return "";
         } else if (text.length() == 1) {
@@ -25,7 +26,8 @@ public class P2J2 {
         return newText;
     }
 
-    public static String uniqueCharacters(String text) {
+    public static String uniqueCharacters(String text)
+    {
         if (text.isEmpty()) {
             return "";
         } else if (text.length() == 1) {
@@ -48,7 +50,8 @@ public class P2J2 {
         return newText;
     }
 
-    public static int countSafeSquaresRooks(int n, boolean[][] rooks) {
+    public static int countSafeSquaresRooks(int n, boolean[][] rooks)
+    {
         Boolean[] safeRows = new Boolean[n];
         Boolean[] safeCols = new Boolean[n];
 
@@ -82,7 +85,8 @@ public class P2J2 {
         return countRow * countCol;
     }
 
-    public static int recaman(int n) {
+    public static int recaman(int n)
+    {
         Boolean[] seen = new Boolean[n*10];
         Arrays.fill(seen, false);
 

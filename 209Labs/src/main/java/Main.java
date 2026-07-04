@@ -8,7 +8,13 @@ import static java.lang.IO.print;
 
 public class Main {
     static void main() {
-        System.out.println(P2J3.pancakeScramble("awesome"));
+
+//        int[] array = {53, -99, -75, -16, -3, -18, -39, 42, 8};
+//        P2J3.reverseAscendingSubarrays(array);
+//        System.out.println(Arrays.toString(array));
+
+        String text = "Uncle Sente lives in Russia";
+        System.out.println(P2J3.reverseVowels(text));
     }
 }
 
