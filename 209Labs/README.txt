@@ -1,4 +1,4 @@
-Total number of completed labs: 6
+Total number of completed labs: 8
 
 Labs that pass the tester in less than 10 secs:
 1. Lab 0(A) - P2J1
@@ -6,7 +6,10 @@ Labs that pass the tester in less than 10 secs:
 3. Lab 0(C) - P2J3
 4. Lab 1 - Polynomial I
 5. Lab 2 - Polynomial II
-5. Lab 3 - Polynomial III
+6. Lab 3 - Polynomial III
+7. Lab 6 - WordCountTest
+8. Lab 7 - Tail Test
+
 
 
 
