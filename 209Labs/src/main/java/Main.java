@@ -9,27 +9,11 @@ import static java.lang.IO.print;
 public class Main {
     static void main() {
 
-//        int[] array = {53, -99, -75, -16, -3, -18, -39, 42, 8};
-//        P2J3.reverseAscendingSubarrays(array);
-//        System.out.println(Arrays.toString(array));
+        Polynomial p1 = new Polynomial(new int[]{7, -5, 3});
+        Polynomial p2 = new Polynomial(new int[]{6, 0, 0, -4});
 
-        String text = "Uncle Sente lives in Russia";
-        System.out.println(P2J3.reverseVowels(text));
+        System.out.println(p1.multiply(p2));
     }
 }
 
-
-
-//Suggested Labs:
-//Module - Lab
-//2 - 0B
-//3 - 0C
-//4 - 3
-//5 - 5
-//6 - 0D
-//7 - 6
-//8 - 8
-//9 - 7
-//10 - 0F
-//11 - 10
 
