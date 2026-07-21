@@ -9,10 +9,7 @@ import static java.lang.IO.print;
 public class Main {
     static void main() {
 
-        Polynomial p1 = new Polynomial(new int[]{7, -5, 3});
-        Polynomial p2 = new Polynomial(new int[]{6, 0, 0, -4});
-
-        System.out.println(p1.multiply(p2));
+        System.out.println(Primes.kthPrime(20));
     }
 }
 

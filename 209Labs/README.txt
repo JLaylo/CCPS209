@@ -1,4 +1,4 @@
-Total number of completed labs: 8
+Total number of completed labs: 10
 
 Labs that pass the tester in less than 10 secs:
 1. Lab 0(A) - P2J1
@@ -8,8 +8,9 @@ Labs that pass the tester in less than 10 secs:
 5. Lab 2 - Polynomial II
 6. Lab 3 - Polynomial III
 7. Lab 6 - WordCountTest
-8. Lab 7 - Tail Test
+8. Lab 7 - TailTest
+9. Lab 11 - PrimesTest
 
 
-
-
+Labs completed with swing components:
+10. Lab 9 - Lissajous Curves
