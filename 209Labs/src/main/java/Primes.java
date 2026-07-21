@@ -23,7 +23,7 @@ public class Primes {
     }
 
     public static int kthPrime(int k) {
-        if (k > primes.size()) {
+        if (k >= primes.size()) {
             int lastNum = primes.getLast() + 1;
             while (k >= primes.size()) {
                 if (Primes.isPrime(lastNum)) {

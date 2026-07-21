@@ -9,7 +9,13 @@ import static java.lang.IO.print;
 public class Main {
     static void main() {
 
-        System.out.println(Primes.kthPrime(20));
+        PrimeGens.TwinPrimes twinPrimes = new PrimeGens.TwinPrimes();
+
+        PrimeGens.Composites composites = new PrimeGens.Composites();
+
+        for (int i = 0; i < 20; i++) {
+            System.out.println(twinPrimes.next());
+        }
     }
 }
 
