@@ -11,11 +11,17 @@ public class Main {
 
         PrimeGens.TwinPrimes twinPrimes = new PrimeGens.TwinPrimes();
 
-        PrimeGens.Composites composites = new PrimeGens.Composites();
+        PrimeGens.SafePrimes safePrimes = new PrimeGens.SafePrimes();
 
-        for (int i = 0; i < 20; i++) {
-            System.out.println(twinPrimes.next());
+        PrimeGens.StrongPrimes strongPrimes = new PrimeGens.StrongPrimes();
+
+        long n = 0;
+        for (int i = 0; i < 3000; i++) {
+            System.out.println(safePrimes.next());
+            //n = twinPrimes.next();
         }
+
+        //System.out.println("" + n);
     }
 }
 

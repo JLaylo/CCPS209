@@ -1,4 +1,4 @@
-Total number of completed labs: 11
+Total number of completed labs: 12
 
 Labs that pass the tester in less than 10 secs:
 1. Lab 0(A) - P2J1
@@ -11,7 +11,8 @@ Labs that pass the tester in less than 10 secs:
 8. Lab 7 - TailTest
 9. Lab 10 - StreamExcercisesTest
 10. Lab 11 - PrimesTest
+11. Lab 12 - PrimeGensTest
 
 
 Labs completed with swing components:
-11. Lab 9 - Lissajous Curves
+12. Lab 9 - Lissajous Curves

@@ -1,5 +1,4 @@
-import java.math.BigInteger;
-import java.util.Iterator;
+import java.util.*;
 
 public class PrimeGens
 {
@@ -41,7 +40,7 @@ public class PrimeGens
     }
 
     public static class TwinPrimes implements Iterator<Integer> {
-        private static int k = 0;
+        private int k = 0;
 
         @Override
         public boolean hasNext() {
@@ -57,7 +56,6 @@ public class PrimeGens
                 {
                     return p;
                 }
-
             }
         }
     }
@@ -72,13 +70,19 @@ public class PrimeGens
 
         @Override
         public Integer next() {
-            // to do
-            return 0;
+            while (true) {
+                int p = Primes.kthPrime(k++);
+
+                if (Primes.isPrime(2*p+1))
+                {
+                    return 2*p+1;
+                }
+            }
         }
     }
 
     public static class StrongPrimes implements Iterator<Integer> {
-        private int k = 0;
+        private int k = 1;
 
         @Override
         public boolean hasNext() {
@@ -87,9 +91,16 @@ public class PrimeGens
 
         @Override
         public Integer next() {
-            // to do
-            return 0;
+            while (true) {
+                int p = Primes.kthPrime(k);
+                int avg_p = (Primes.kthPrime(k+1) + Primes.kthPrime(k-1)) / 2;
+                k++;
+
+                if (p > avg_p)
+                {
+                    return p;
+                }
+            }
         }
     }
-
 }
