@@ -1,4 +1,4 @@
-Total number of completed labs: 12
+Total number of completed labs: 13
 
 Labs that pass the tester in less than 10 secs:
 1. Lab 0(A) - P2J1
@@ -15,4 +15,5 @@ Labs that pass the tester in less than 10 secs:
 
 
 Labs completed with swing components:
-12. Lab 9 - Lissajous Curves
+12. Lab 5 - Biticut Follies
+13. Lab 9 - Lissajous Curves
